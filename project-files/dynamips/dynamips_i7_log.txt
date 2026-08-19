@@ -1,0 +1,38 @@
+Aug 19 12:15:00.722 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 19 12:15:00.723 HYPERVISOR: Started on IP = localhost, TCP port = 60409.
+Aug 19 12:15:01.205 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 19 12:15:01.206 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\PRATHIBA\GNS3\projects\static routinhg&dynamic routing\project-files\dynamips 
+Aug 19 12:15:01.206 GENERAL: working_dir=C:\Users\PRATHIBA\GNS3\projects\static routinhg&dynamic routing\project-files\dynamips
+Aug 19 12:15:01.206 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\PRATHIBA\GNS3\projects\static routinhg&dynamic routing\project-files\dynamips\b57cc392-a6f4-4cd4-9c41-e70c5414fbc4 
+Aug 19 12:15:01.207 GENERAL: working_dir=C:\Users\PRATHIBA\GNS3\projects\static routinhg&dynamic routing\project-files\dynamips\b57cc392-a6f4-4cd4-9c41-e70c5414fbc4
+Aug 19 12:15:01.207 HYPERVISOR: exec_cmd: vm create R4 4 c7200 
+Aug 19 12:15:01.210 VM: VM R4 created.
+Aug 19 12:15:01.210 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5010 
+Aug 19 12:15:01.210 HYPERVISOR: exec_cmd: c7200 get_mac_addr R4 
+Aug 19 12:15:01.211 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 19 12:15:01.211 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-FE 
+Aug 19 12:15:01.212 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Aug 19 12:15:01.212 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Aug 19 12:15:01.212 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/PRATHIBA/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image 
+Aug 19 12:15:01.213 HYPERVISOR: exec_cmd: c7200 set_mac_addr R4 ca04.3e54.0000 
+Aug 19 12:15:01.213 HYPERVISOR: exec_cmd: vm set_nvram R4 512 
+Aug 19 12:15:01.214 HYPERVISOR: exec_cmd: vm set_ram R4 512 
+Aug 19 12:15:01.214 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 19 12:15:01.214 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 PA-GE 
+Aug 19 12:15:01.215 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 19 12:15:01.215 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 PA-GE 
+Aug 19 12:15:01.216 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 19 12:15:01.216 HYPERVISOR: exec_cmd: vm slot_add_binding R4 3 0 PA-GE 
+Aug 19 12:15:01.216 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 19 12:15:01.216 HYPERVISOR: exec_cmd: vm slot_add_binding R4 4 0 PA-GE 
+Aug 19 12:15:01.217 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 19 12:15:01.217 HYPERVISOR: exec_cmd: vm slot_add_binding R4 5 0 PA-2FE-TX 
+Aug 19 12:15:01.218 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 19 12:15:01.218 HYPERVISOR: exec_cmd: vm slot_add_binding R4 6 0 PA-8E 
+Aug 19 12:15:01.219 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5010 
+Aug 19 12:15:03.196 HYPERVISOR: exec_cmd: nio create_udp udp-59a689d5-631c-4c4d-81ce-11038ebe3de9 10020 127.0.0.1 10021 
+Aug 19 12:15:03.511 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 2 0 udp-59a689d5-631c-4c4d-81ce-11038ebe3de9 
+Aug 19 12:15:03.512 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 19 12:15:04.001 HYPERVISOR: exec_cmd: nio create_udp udp-8a863dec-acbb-4e6e-882f-a884379d704b 10034 127.0.0.1 10035 
+Aug 19 12:15:04.005 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-8a863dec-acbb-4e6e-882f-a884379d704b 
+Aug 19 12:15:04.005 HYPERVISOR: exec_cmd: vm get_status R4 
